@@ -1,0 +1,53 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.label{
+	-fx-text-fill: #e8e8e8;
+}
+
+.root{
+    -fx-background-color: #383838;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 0.0% 0.0%, radius 100.0%, rgb(204,204,204) 0.0, rgb(77,77,77) 100.0 );
+}
+
+.tab-pane .tab
+{
+    -fx-background-color: radial-gradient( focus-angle 0.0deg, focus-distance 0.0%, center 0.0% 0.0%, radius 100.0%, rgb(204,204,204) 0.0, rgb(77,77,77) 100.0 );
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #3c3c3c;
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: rgb(233,233,233);
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+}
+
+.text-area{
+	-fx-font-family: Consolas;
+  	-fx-text-fill: rgb(0,128,0);
+  	-fx-font-size: 12pt;
+}
+
+.text-area .content{
+	-fx-background-color: linear-gradient( from -20.0% -20.0% to 50.0% 150.0%, rgb(230,230,230) 0.0, rgb(26,26,26) 100.0);
+}
+
+.text-area *.text {
+    -fx-text-alignment: center;
+}
+
+.line .content{
+	-fx-opacity: 0.2;
+}
